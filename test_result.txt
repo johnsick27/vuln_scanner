@@ -1,0 +1,6 @@
+Enter target URL (with http and parameters): [+] Scanning: http://testphp.vulnweb.com/listproducts.php?cat=1
+[*] Testing for SQL Injection...
+[!] SQL Injection VULNERABLE: http://testphp.vulnweb.com/listproducts.php?cat=%27%3B--
+[*] Testing for XSS...
+[!] XSS VULNERABLE: http://testphp.vulnweb.com/listproducts.php?cat=%3Cscript%3Ealert%281%29%3C%2Fscript%3E
+[!] XSS VULNERABLE: http://testphp.vulnweb.com/listproducts.php?cat=%3Cimg+src%3Dx+onerror%3Dalert%281%29%3E
